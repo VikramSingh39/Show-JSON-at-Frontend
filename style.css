@@ -1,0 +1,85 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Helvetica, sans-serif;
+}
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 20px;
+}
+.container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+}
+.card{
+      width: 350px;
+      height: 450px;
+      margin-top: 20px;
+      border-radius: 20px;
+      padding: 1rem;
+      box-shadow: 0px 0px 20px rgb(170, 169, 169);
+      display: flex;
+      gap: 16px;
+      flex-direction: column;
+      margin: 20px;
+}
+    img {
+      margin: 0;
+      padding: 0;
+      border: none;
+      display: block;
+    }
+.profile_pic{
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-inline: auto;
+}
+.profile_pic img{
+      display: block;
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      object-position: 50% 20%; 
+}
+h2{
+      text-align: center;
+      margin-top: 16px;
+      font-weight: 400;
+      color: rgb(23, 22, 22);
+}
+.desegination{
+     color: rgb(43, 187, 244);
+     text-align: center;
+     font-size: 18px;
+     font-weight: 700;
+}
+.skills{
+      margin-inline: auto;
+      color: rgb(154, 220, 222);
+      display: flex;
+      gap: 8px;
+      text-align: center;
+}
+.description{
+      text-align: center;
+      opacity: 0.7;
+      line-height: 25px;
+}
+hr{
+      width: 60%;
+      margin-inline: auto;
+}
+.view_profile{
+   color: rgb(12, 10, 10);
+   text-align: center;
+   font-size: 18px;
+
+}
